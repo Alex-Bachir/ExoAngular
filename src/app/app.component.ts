@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet,RouterModule],
+  // Conseil : mettre le footer et le header(navbar) ici et otn router-outlet c'est ce qui va te servir à remplir le main 
   template: `
   <main>
     <a [routerLink]="['/']">
